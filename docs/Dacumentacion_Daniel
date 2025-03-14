@@ -1,0 +1,241 @@
+Creación de Usuarios en el Servidor  
+
+Objetivo  
+Establecer el proceso estándar para crear nuevos usuarios en WordPress con asignación de roles y permisos.
+
+
+Prerrequisitos  
+- Acceso administrativo al panel de WordPress (`/wp-admin`)
+- Credenciales de administrador válidas
+- Correo electrónico válido del nuevo usuario
+
+---
+
+Procedimiento Paso a Paso  
+
+Paso 1: Acceso al Panel Administrativo
+1. Ingresar a la URL: http://moviematrix.kesug.com/`  
+2. Introducir credenciales de administrador  
+
+Paso 2: Navegación a Sección de Usuarios
+
+1. En el menú izquierdo del Dashboard:  
+   `Usuarios → Añadir Nuevo`  
+Paso 3: Formulario de Registro
+
+Complete los siguientes campos obligatorios:
+Nombre de usuario:
+Identificador único (evitar espacios o caracteres especiales).
+Correo electrónico:
+Debe ser válido y no estar registrado previamente en el sistema.
+Contraseña:
+Generar automáticamente (recomendado) o ingresar manualmente.
+El usuario podrá cambiarla posteriormente.
+
+Rol:
+
+Seleccionar de la lista desplegable (ej: Suscriptor, Editor, Administrador).
+
+-----------------------------------------------------------------------------
+
+Instalar tipografías
+
+Paso 1: Acceder al Personalizador de WordPress
+En el menú izquierdo del Dashboard:
+Apariencia → Personalizar.
+
+
+Paso 2: Navegar a Configuraciones Globales
+En el panel de personalización:
+Seleccionar la sección Global (o Diseño Global según el tema).
+
+
+Paso 3: Gestionar Tipografías
+Dentro de la sección Global:
+
+Buscar y hacer clic en Tipografías (puede aparecer como Tipografía o Fonts).
+
+Paso 4: Editar Encabezados (H1-H6)
+Para cada encabezado:
+H1:
+Hacer clic en el selector de fuente.
+Buscar/ingresar el nombre exacto de la tipografía indicada en el manual de marca.
+Ajustar tamaño, peso y espaciado según especificaciones.
+Repetir el proceso para H2, H3, H4, H5 y H6.
+
+-----------------------------------------------------------------------------
+
+
+Configurar colores principales a utilizar
+
+Paso 1: Acceder al Personalizador de WordPress
+En el menú izquierdo del Dashboard:
+Apariencia → Personalizar.
+
+
+Paso 2: Navegar a Configuraciones Globales
+En el panel de personalización:
+
+Seleccionar la sección Global (o Diseño Global según el tema).
+
+
+Paso 3:seleccionar los colores identificados en el manual de Fuentes y colores 
+
+
+
+-----------------------------------------------------------------------------
+
+
+
+Instalación de plugins
+
+Plugins Requeridos
+Elementor (Constructor de páginas)
+Pro Elements (Extensión para plantillas avanzadas)
+Ultimate Member (Gestión de perfiles y páginas de login/registro)
+
+Paso 1: Acceder al Menú de Plugins
+En el menú izquierdo del Dashboard:
+Plugins → Añadir Nuevo.
+
+
+Paso 2: Instalar Elementor
+En la barra de búsqueda:
+Escribir "Elementor".
+Hacer clic en Instalar ahora y luego en Activar.
+
+Paso 3: Instalar Pro Elements
+Repetir el proceso de búsqueda:
+Escribir "Pro Elements" (o nombre exacto del plugin según licencia).
+Instalar y activar.
+Nota: Si es un plugin premium, subir el archivo .zip manualmente con Subir plugin.
+
+Paso 4: Instalar Ultimate Member
+Buscar "Ultimate Member" en el repositorio.
+Instalar y activar.
+Verificar que se creen las páginas automáticas:
+Login
+Registro
+Perfil de usuario
+
+
+Configuraciones Post-Instalación
+Elementor + Pro Elements:
+
+Configurar plantillas desde Plantillas → Biblioteca.
+Vincular licencia en Elementor → Ajustes → Licencia.
+
+Ultimate Member:
+
+Personalizar formularios en Ultimate Member → Formularios.
+Ajustar roles de usuario en Ultimate Member → Roles.
+
+
+-----------------------------------------------------------------------------
+
+Formato y creación del menú principal
+
+Creacion de Menu 
+
+Paso 1: Acceder al Administrador de Menús
+En el menú izquierdo del Dashboard:
+Apariencia → Menús.
+
+Paso 2: Seleccionar o Crear un Menú
+Si ya existe un menú:
+Seleccionarlo desde el desplegable Seleccionar menú.
+Para crear uno nuevo:
+Hacer clic en Crear un nuevo menú.
+Asignar un nombre identificativo (ej: "Menú Principal").
+
+
+Paso 3: Añadir Páginas al Menú
+En la sección Añadir elementos al menú:
+Seleccionar la pestaña Páginas.
+Marcar las páginas a incluir (ej: Inicio, Servicios, Contacto).
+Hacer clic en Añadir al menú.
+
+Paso 4: Organizar el Orden
+Arrastrar y soltar los elementos para definir:
+Orden principal: Jerarquía de izquierda a derecha.
+Subpáginas: Desplazar elementos ligeramente a la derecha bajo un elemento padre.
+
+
+Paso 5: Configurar Menús Desplegables
+Para crear submenús:
+Seleccionar un elemento del menú.
+Arrastrarlo debajo del elemento padre y desplazarlo a la derecha.
+Repetir para múltiples niveles (no recomendado más de 2 niveles).
+
+
+Paso 6: Guardar y Publicar
+Asignar la ubicación del menú (ej: "Menú Superior" o "Menú Mobile").
+Hacer clic en Guardar menú.
+
+-----------------------------------------------------------------------------
+5. Configuración de Cabecera y Estilos de Menú
+
+Prerrequisitos
+
+Acceso al personalizador de WordPress
+Archivo del logotipo en formato .png o .svg (recomendado)
+Menú previamente creado (ver Documentación #4)
+
+
+Paso 1: Acceder al Personalizador de WordPress
+En el menú izquierdo del Dashboard:
+Apariencia → Personalizar.
+
+Paso 2: Configurar Maquetador de Cabecera
+En el panel de personalización:
+Buscar y seleccionar Cabecera o Header Builder (dependiendo del tema).
+Elegir el diseño deseado:
+Logo a la izquierda + menú a la derecha
+Logo centrado + menú debajo
+Personalizado
+
+Paso 3: Agregar Logotipo y Título
+En la sección Identidad del Sitio:
+
+Logotipo:
+Hacer clic en Seleccionar logo
+Subir archivo desde la biblioteca o equipo
+Ajustar tamaño máximo (ej: 250px de ancho)
+Título del sitio:
+Activar/desactivar visualización
+Elegir tipografía y color según manual de marca
+
+Paso 4: Seleccionar Menú Principal
+En la sección Menús:
+Seleccionar Menú Principal creado previamente
+Asignar ubicación: Menú Primario o Header Navigation
+
+Paso 5: Personalizar Estilos del Menú
+En Opciones de Estilo:
+
+Fondo:
+Color sólido: Usar código HEX del manual de marca
+Degradado/Imagen: Solo si está especificado en el diseño
+
+Enlaces:
+Color normal/hover
+Tamaño de fuente y espaciado
+
+Efectos:
+Subrayado al pasar el mouse
+Animación de dropdown (ej: desvanecimiento)
+
+-----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
